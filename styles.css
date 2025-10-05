@@ -1,0 +1,53 @@
+
+/* Estilo general */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Contenedor principal */
+main {
+  max-width: 800px;
+  padding: 20px;
+}
+
+/* Título */
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffff00;
+}
+
+/* Lista */
+ol {
+  line-height: 1.6;
+  font-size: 1.3rem;
+  padding-left: 20px;
+}
+
+li {
+    padding-top: 20px;
+}
+
+span {
+    color: #ffff00;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  ol {
+    font-size: 1rem;
+  }
+}
